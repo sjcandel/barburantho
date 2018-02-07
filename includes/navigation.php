@@ -1,5 +1,5 @@
-<nav class="flex-container">
-    <ul>
+<nav class="bg-grey1">
+    <ul class="flex-container is-horizontal-extremes maxw-1024 m-center p-20 m-b-40">
         <li><a href="https.barburantho.com/index.html">Accueil</a></li>
         <li><a href="#">À propos</a>
             <ul>

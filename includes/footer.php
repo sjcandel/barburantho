@@ -1,11 +1,11 @@
 </body>
 
-<footer>
+<footer class="bg-grey1 text-white p-20">
   <address>
-    Barburantho<br>
-    1 Avenue des Vosges<br>
-    67000 Strasbourg<br>
-    FRANCE
+    <p>Barburantho</p>
+    <p>1 Avenue des Vosges</p>
+    <p>67000 Strasbourg</p>
+    <p>FRANCE</p>
   </address>
 </footer>
 
