@@ -1,4 +1,4 @@
-<nav>
+<nav class="flex-container">
     <ul>
         <li><a href="https.barburantho.com/index.html">Accueil</a></li>
         <li><a href="#">À propos</a>
