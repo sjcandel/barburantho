@@ -22,9 +22,9 @@ nav ul li a {
   color: white !important;
 }
 
-nav ul li ul {
-  display: none;
-}
+// nav ul li ul {
+//   display: none;
+// }
 
 section {
   margin-bottom: 60px;
@@ -33,4 +33,5 @@ section {
 main {
   max-width: 1024px;
   margin: 0 auto;
+  padding: 40px;
 }

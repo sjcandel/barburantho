@@ -12,9 +12,6 @@
 /* MIXIN TO PREFIX A PROPERTY */
 /*----------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------*/
-/* BREAKPOINTS */
-/*----------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------*/
 /* RESET */
 /*----------------------------------------------------------------------------------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -22,7 +19,6 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,600");
-@import url("https://fonts.googleapis.com/css?family=Courgette");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -69,6 +65,15 @@ table {
   -webkit-flex-wrap: wrap !important;
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important; }
+  @media screen and (max-width: 544px) {
+    .flex-container {
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
 
 .is-column {
   -webkit-flex-direction: column !important;
@@ -1476,6 +1481,12 @@ button[type="reset"]:hover {
 #panelContent textarea:hover {
   background-color: white; }
 
+@font-face {
+  font-family: "the_goldsmith_vintagevintage";
+  src: url("../../src/fonts/the_goldsmith_vintage-webfont.woff2") format("woff2"), url("../../src/fonts/the_goldsmith_vintage-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 /*----------------------------------------------------------------------------------------------*/
 /* TYPOS */
 /*----------------------------------------------------------------------------------------------*/
@@ -1539,7 +1550,7 @@ h2 {
 
 h1 {
   font-size: 5rem !important;
-  font-family: "Courgette", Helvetica, Arial, sans-serif; }
+  font-family: "the_goldsmith_vintagevintage"; }
 
 h1,
 h2,
@@ -1578,12 +1589,10 @@ strong {
 nav ul li a {
   color: white !important; }
 
-nav ul li ul {
-  display: none; }
-
 section {
   margin-bottom: 60px; }
 
 main {
   max-width: 1024px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 40px; }

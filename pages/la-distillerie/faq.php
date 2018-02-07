@@ -6,5 +6,8 @@
 
 <?php include('../../includes/navigation.php'); ?>
 
+<main>
+    <h3>FAQ</h3>
+</main>
 
 <?php include('../../includes/footer.php'); ?>

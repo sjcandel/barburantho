@@ -1,18 +1,18 @@
 <nav class="bg-grey1">
-    <ul class="flex-container is-horizontal-extremes maxw-1024 m-center p-20 m-b-40">
-        <li><a href="https.barburantho.com/index.html">Accueil</a></li>
+    <ul class="flex-container is-horizontal-extremes maxw-1024 m-center p-20">
+        <li><a href="../../index.php">Accueil</a></li>
         <li><a href="#">À propos</a>
             <ul>
-                <li><a href="https.barburantho.com/pages/apropos/histoire.php">Histoire</a></li>
-                <li><a href="https.barburantho.com/pages/apropos/savoir_faire.php">Savoir faire</a></li>
-                <li><a href="https.barburantho.com/pages/apropos/faq.php">FAQ</a></li>
+                <li><a href="../la-distillerie/histoire.php">Histoire</a></li>
+                <li><a href="../la-distillerie/savoir-faire.php">Savoir faire</a></li>
+                <li><a href="../la-distillerie/faq.php">FAQ</a></li>
             </ul>
         </li>
-        <li><a href="https.barburantho.com/pages/rhums/rhums.php">Rhums</a>
+        <li><a href="../les-rhums/rhums.php">Rhums</a>
             <ul>
-                <li><a href="https.barburantho.com/pages/rhums/rhums_blancs.php">Rhums blancs</a></li>
-                <li><a href="https.barburantho.com/pages/rhums/rhums_ambrés.php">Rhums ambrés</a></li>
-                <li><a href="https.barburantho.com/pages/rhums/rhums_épicés.php">Rhums épicés</a></li>
+                <li><a href="../les-rhums/rhums-blancs.php">Rhums blancs</a></li>
+                <li><a href="../les-rhums/rhums-ambres.php">Rhums ambrés</a></li>
+                <li><a href="../les-rhums/rhums-epices.php">Rhums épicés</a></li>
             </ul>
         </li>
     </ul>
