@@ -1,4 +1,7 @@
-<?php include('../../includes/header.php'); ?>
+<?php 
+    $pageTitle = 'Rhums Ambrés -Barburantho';
+    include('../../includes/header.php'); 
+?>
 
 
 <?php include('../../includes/navigation.php'); ?>
