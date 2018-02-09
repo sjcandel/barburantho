@@ -10,7 +10,6 @@
   <h1>L’histoire du rhum Barburantho</h1>
   
   <article>
-    <h2>Histoire</h2>
     <p>L’histoire du rhum Barburantho débute avec l’histoire du rhum martiniquais et du rhum français plus généralement.</p>
 
     <figure>

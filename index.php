@@ -85,7 +85,14 @@
                 d’être reconnue comme l’une des meilleures au monde.</p>
             <a href="./pages/la-distillerie/savoir-faire.php">Découvrir notre savoir-faire</a>
         </article>
-    <section>
+    </section>
+
+
+    <h2>Les actualités de la maison Barburantho</h2>
+<?php include('./includes/blog.php'); ?>
+<?php include('./includes/blog.php'); ?>
+<?php include('./includes/blog.php'); ?>
+<?php include('./includes/blog.php'); ?>
 </main>
 
 <?php include('./includes/footer.php'); ?>
