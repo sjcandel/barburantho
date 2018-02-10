@@ -61,10 +61,10 @@ Une page est déclaré comme ceci:
 //app.json
 {"pages": [
     {
-    "path": "/", // url
-    "title": "", // <title>
-    "desc": "", // <meta name="description">
-    "keywords": "", // <meta name="keywords">
+    "path": "/",
+    "title": "ce qui va dans la balise <title>",
+    "desc": "ce qui va dans la balise <meta name=\"description\">",
+    "keywords": "ce qui va dans la balise <meta name=\"keywords\">",
     "file": "nom-du-fichier-html-sans-son-extension"
   }
 ]}
