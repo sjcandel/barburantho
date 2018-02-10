@@ -11,6 +11,10 @@
     {
       "file": "footer",
       "var": "footer"
+    },
+    {
+      "file": "blog",
+      "var": "blog"
     }
   ],
   "pages": [
