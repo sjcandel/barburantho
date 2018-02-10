@@ -1,0 +1,43 @@
+// Utilities
+@import "variables";
+@import "mixins";
+@import "reset";
+
+// Structure
+@import "flexbox";
+@import "layout";
+
+// Components
+@import "colors";
+@import "forms";
+@import "typos";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box !important;
+}
+
+nav ul li a {
+  color: white !important;
+}
+
+// nav ul li ul {
+//   display: none;
+// }
+
+section {
+  margin-bottom: 60px;
+}
+
+main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+// a {
+//   background-color: pink;
+//   color: white;
+//   padding: 5px;
+// }

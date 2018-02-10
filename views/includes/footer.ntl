@@ -1,0 +1,19 @@
+<footer class="bg-grey1 text-white p-20">
+  <address>
+    <p>Barburantho</p>
+    <p>1 Avenue des Vosges</p>
+    <p>67000 Strasbourg</p>
+    <p>FRANCE</p>
+  </address>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113243595-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-113243595-1');
+</script>
+</body>
+</html>

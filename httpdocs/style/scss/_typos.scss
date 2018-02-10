@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Courgette");
+
+@font-face {
+  font-family: "the_goldsmith_vintagevintage";
+  src: url("../../src/fonts/the_goldsmith_vintage-webfont.woff2")
+      format("woff2"),
+    url("../../src/fonts/the_goldsmith_vintage-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/* TYPOS */
+/*----------------------------------------------------------------------------------------------*/
+html {
+  font-family: $font-family1;
+  color: $color-grey1;
+  background-color: white;
+}
+
+body {
+  line-height: 1.2;
+}
+
+p {
+  font-weight: $font-weight-2;
+  font-size: $font-size-m;
+}
+
+a {
+  color: $color-grey1;
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.label {
+  text-align: left;
+  font-size: $font-size-s;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+// SIZE
+.text-xxs {
+  font-size: $font-size-xxs !important;
+}
+.text-xs {
+  font-size: $font-size-xs !important;
+}
+.text-s {
+  font-size: $font-size-s !important;
+}
+.text-m {
+  font-size: $font-size-m !important;
+}
+.text-l {
+  font-size: $font-size-l !important;
+}
+.text-xl {
+  font-size: $font-size-xl !important;
+}
+.text-xxl {
+  font-size: $font-size-xxl !important;
+}
+
+h6 {
+  font-size: $font-size-xs !important;
+}
+h5 {
+  font-size: $font-size-s !important;
+}
+h4 {
+  font-size: $font-size-m !important;
+}
+h3 {
+  font-size: $font-size-l !important;
+}
+h2 {
+  font-size: $font-size-xl !important;
+}
+h1 {
+  font-size: $font-size-xxl !important;
+  font-family: $font-family2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+}
+
+// WEIGHT
+.weight-200 {
+  font-weight: $font-weight-1 !important;
+}
+.weight-400 {
+  font-weight: $font-weight-2 !important;
+}
+.weight-600,
+b,
+strong {
+  font-weight: $font-weight-3 !important;
+}
+
+// TEXT-ALIGN
+$values: ("left") (left),  ("center") (center),  ("right") (right);
+
+@each $i in $values {
+  .text-#{nth($i, 1)} {
+    text-align: #{nth($i, 2)} !important;
+  }
+}

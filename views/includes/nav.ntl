@@ -1,0 +1,19 @@
+<nav class="bg-grey1">
+    <ul class="flex-container is-horizontal-extremes maxw-1024 m-center p-20">
+        <li><a href="/">Accueil</a></li>
+        <li><a href="/distillerie">Notre distillerie</a>
+            <ul>
+                <li><a href="/distillerie/histoire">Histoire</a></li>
+                <li><a href="/distillerie/savoir-faire">Savoir faire</a></li>
+                <li><a href="/distillerie/faq">FAQ</a></li>
+            </ul>
+        </li>
+        <li><a href="/rhums">Rhums</a>
+            <ul>
+                <li><a href="/rhums/blancs">Rhums blancs</a></li>
+                <li><a href="/rhums/ambres">Rhums ambrés</a></li>
+                <li><a href="/rhums/epices">Rhums épicés</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
