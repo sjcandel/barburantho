@@ -1,0 +1,80 @@
+{
+  "includes": [
+    {
+      "file": "header",
+      "var": "header"
+    },
+    {
+      "file": "nav",
+      "var": "nav"
+    },
+    {
+      "file": "footer",
+      "var": "footer"
+    }
+  ],
+  "pages": [
+  {
+    "path": "/",
+    "title": "Barburantho - Distillerie de Rhum",
+    "desc": "",
+    "keywords": "",
+    "file": "index"
+  },
+  {
+    "path": "/rhums",
+    "title": "Rhums - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "rhums/index"
+  },
+  {
+    "path": "/rhums/ambres",
+    "title": "Rhums ambrés - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "rhums/ambres"
+  },
+  {
+    "path": "/rhums/blancs",
+    "title": "Rhums blancs - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "rhums/blancs"
+  },
+  {
+    "path": "/rhums/epices",
+    "title": "Rhums épicés - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "rhums/epices"
+  },
+  {
+    "path": "/distillerie",
+    "title": "Notre distillerie - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "distillerie/index"
+  },
+  {
+    "path": "/distillerie/faq",
+    "title": "FAQ - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "distillerie/faq"
+  },
+  {
+    "path": "/distillerie/histoire",
+    "title": "Notre histoire - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "distillerie/histoire"
+  },
+  {
+    "path": "/distillerie/savoir-faire",
+    "title": "Notre savoir-faire - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "distillerie/savoir-faire"
+  }
+  ]}
