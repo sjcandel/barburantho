@@ -32,7 +32,7 @@ label {
   background-color: $color-bth-brun1;
   color: $color-bth-white1;
   padding: 10px;
-  width: 100%;
+  // width: 100%;
   display: inline-block;
   &:hover {
     background-color: lighten( $color-bth-brun1, 10% );
