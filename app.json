@@ -68,6 +68,13 @@
     "file": "distillerie/faq"
   },
   {
+    "path": "/distillerie/boutique",
+    "title": "Boutique - Barburantho",
+    "desc": "",
+    "keywords": "",
+    "file": "distillerie/boutique"
+  },
+  {
     "path": "/distillerie/histoire",
     "title": "Notre histoire - Barburantho",
     "desc": "",

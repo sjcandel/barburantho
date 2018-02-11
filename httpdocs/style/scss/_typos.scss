@@ -84,16 +84,18 @@ h2 {
   font-size: $font-size-m !important;
   text-transform: uppercase;
   letter-spacing: 5px;
+  position: relative;
 
-  // &:after {
-  //   content: '&&&';
-  //   position: absolute;
-  //   left: 0; bottom: -7px;
-  //   height: 4px;
-  //   background-color: #fff;
-  //   width: 0;
-  //   transition: width .25s;
-  // }
+  &:after {
+    content: '•••';
+    position: absolute;
+    left: 49%; 
+    bottom: -7px;
+    height: 4px;
+    background-color: #fff;
+    width: 0;
+    transition: width .25s;
+  }
 }
 
 h1 {
