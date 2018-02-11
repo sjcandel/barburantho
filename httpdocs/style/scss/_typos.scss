@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,600");
-// @import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600');
 
 @font-face {
   font-family: "the_goldsmith_vintagevintage";
@@ -15,18 +16,17 @@
 /*----------------------------------------------------------------------------------------------*/
 html {
   font-family: $font-family1;
-  color: $color-grey1;
-  background-color: white;
+  font-weight: $font-weight-1;
 }
 
 body {
   line-height: 1.2;
 }
 
-p {
-  font-weight: $font-weight-2;
-  font-size: $font-size-m;
-}
+// p {
+//   font-weight: $font-weight-2;
+//   font-size: $font-size-s;
+// }
 
 a {
   color: $color-grey1;
@@ -79,9 +79,23 @@ h4 {
 h3 {
   font-size: $font-size-l !important;
 }
+
 h2 {
-  font-size: $font-size-xl !important;
+  font-size: $font-size-m !important;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  // &:after {
+  //   content: '&&&';
+  //   position: absolute;
+  //   left: 0; bottom: -7px;
+  //   height: 4px;
+  //   background-color: #fff;
+  //   width: 0;
+  //   transition: width .25s;
+  // }
 }
+
 h1 {
   font-size: $font-size-xxl !important;
   font-family: $font-family2;
@@ -93,7 +107,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 // WEIGHT
