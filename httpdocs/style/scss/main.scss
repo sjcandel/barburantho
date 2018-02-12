@@ -58,6 +58,32 @@ main{
   background: $color-bth-white1;
 }
 
+//breadcrub
+ul.breadcrub{
+  display: block;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  li{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    &:first-of-type{
+      &::before{
+        content: '';
+        display: none;
+      }
+    }
+    &::before{
+      content: "/\00a0";
+      padding: 4px;
+    }
+    &:last-of-type{
+      font-weight: $font-weight-2;
+    }
+  }
+}
+
 //INDEX header
 header#home{
   position: relative;

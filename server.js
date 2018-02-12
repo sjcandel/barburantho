@@ -16,7 +16,24 @@ app.engine('html', function(filePath, options, callback) {
     appData.includes.forEach((include)=>{
       rendered = rendered.replace('#'+include.var+'#', fs.readFileSync(__dirname + '/views/includes/'+include.file+'.html', 'utf8').toString());
     });
+    var breadcrub = '';
+    var path = options.path.split('/');
+    path.forEach((crub, i)=>{
+      if(crub != '' && i != 0){
+        if(i == 1){
+          breadcrub += '<li><a href="/'+crub+'">'+crub+'</a></li>\n';
+        }else if(i == 2){
+          breadcrub += '<li><a href="/'+path[1]+'/'+crub+'">'+crub+'</a></li>\n';
+        }else if(i == 3){
+          breadcrub += '<li><a href="/'+path[1]+'/'+path[2]+'/'+crub+'">'+crub+'</a></li>\n';
+        }
+      }
+    });
+    if(options.path != '/'){
+      options.title += ' - Barburantho';
+    }
     rendered = rendered.replace('#url#', options.url)
+    .replace('#breadcrub-items#', breadcrub)
     .replace('#title#', options.title)
     .replace('#desc#', options.desc)
     .replace('#keywords#', options.keywords)

@@ -9,6 +9,10 @@
       "var": "nav"
     },
     {
+      "file": "breadcrub",
+      "var": "breadcrub"
+    },
+    {
       "file": "footer",
       "var": "footer"
     },
@@ -27,58 +31,100 @@
   },
   {
     "path": "/rhums",
-    "title": "Rhums - Barburantho",
+    "title": "Les Rhums",
     "desc": "",
     "keywords": "",
     "file": "rhums/index"
   },
-  {
-    "path": "/rhums/ambres",
-    "title": "Rhums ambrés - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "rhums/ambres"
-  },
-  {
-    "path": "/rhums/blancs",
-    "title": "Rhums blancs - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "rhums/blancs"
-  },
-  {
-    "path": "/rhums/epices",
-    "title": "Rhums épicés - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "rhums/epices"
-  },
+    {
+      "path": "/rhums/ambres",
+      "title": "Les Rhums ambrés",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/ambres/index"
+    },
+      {
+        "path": "/rhums/ambres/vasquez",
+        "title": "Vásquez",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/ambres/vasquez"
+      },
+      {
+        "path": "/rhums/ambres/da-cunha",
+        "title": "Da Cunha",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/ambres/da-cunha"
+      },
+      {
+        "path": "/rhums/ambres/nicolo-de-conti",
+        "title": "Nicolò de Conti",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/ambres/nicolo-de-conti"
+      },
+    {
+      "path": "/rhums/blancs",
+      "title": "Les Rhums blancs",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/blancs/index"
+    },
+      {
+        "path": "/rhums/blancs/corte-real",
+        "title": "Corte Real",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/blancs/corte-real"
+      },
+      {
+        "path": "/rhums/blancs/diaz-del-castillo",
+        "title": "Dìaz Del Castillo",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/blancs/diaz-del-castillo"
+      },
+      {
+        "path": "/rhums/blancs/fernao-pinto",
+        "title": "Fernão Pinto",
+        "desc": "",
+        "keywords": "",
+        "file": "rhums/blancs/fernao-pinto"
+      },
+    {
+      "path": "/rhums/epices",
+      "title": "Les Rhums épicés",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/epices/index"
+    },
   {
     "path": "/distillerie",
-    "title": "La Distillerie - Barburantho",
+    "title": "La Distillerie",
     "desc": "",
     "keywords": "",
     "file": "distillerie/index"
   },
-  {
-    "path": "/distillerie/faq",
-    "title": "FAQ - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "distillerie/faq"
-  },
-  {
-    "path": "/distillerie/histoire",
-    "title": "L'Histoire - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "distillerie/histoire"
-  },
-  {
-    "path": "/distillerie/savoir-faire",
-    "title": "Notre savoir-faire - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "distillerie/savoir-faire"
-  }
+    {
+      "path": "/distillerie/faq",
+      "title": "FAQ",
+      "desc": "",
+      "keywords": "",
+      "file": "distillerie/faq"
+    },
+    {
+      "path": "/distillerie/histoire",
+      "title": "L'Histoire",
+      "desc": "",
+      "keywords": "",
+      "file": "distillerie/histoire"
+    },
+    {
+      "path": "/distillerie/savoir-faire",
+      "title": "Notre savoir-faire",
+      "desc": "",
+      "keywords": "",
+      "file": "distillerie/savoir-faire"
+    }
   ]}
