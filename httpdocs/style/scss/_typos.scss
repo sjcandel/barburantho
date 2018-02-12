@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,400,600");
-@import url('https://fonts.googleapis.com/css?family=Vidaloka');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600');
+@import url("https://fonts.googleapis.com/css?family=Vidaloka");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600");
 
 @font-face {
   font-family: "the_goldsmith_vintagevintage";
@@ -84,18 +84,6 @@ h2 {
   font-size: $font-size-m !important;
   text-transform: uppercase;
   letter-spacing: 5px;
-  position: relative;
-
-  &:after {
-    content: '•••';
-    position: absolute;
-    left: 49%; 
-    bottom: -7px;
-    height: 4px;
-    background-color: #fff;
-    width: 0;
-    transition: width .25s;
-  }
 }
 
 h1 {
@@ -110,6 +98,21 @@ h4,
 h5,
 h6 {
   margin-bottom: 40px;
+}
+
+.underline {
+  position: relative;
+
+  &:after {
+    content: "•••";
+    position: absolute;
+    left: 49%;
+    bottom: -7px;
+    height: 4px;
+    background-color: #fff;
+    width: 0;
+    transition: width 0.25s;
+  }
 }
 
 // WEIGHT

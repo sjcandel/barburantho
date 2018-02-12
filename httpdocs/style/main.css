@@ -930,6 +930,29 @@ table {
   padding-left: 100px !important;
   padding-right: 100px !important; }
 
+.p-120 {
+  padding: 120px !important; }
+
+.p-t-120 {
+  padding-top: 120px !important; }
+
+.p-r-120 {
+  padding-right: 120px !important; }
+
+.p-b-120 {
+  padding-bottom: 120px !important; }
+
+.p-l-120 {
+  padding-left: 120px !important; }
+
+.p-y-120 {
+  padding-top: 120px !important;
+  padding-bottom: 120px !important; }
+
+.p-x-120 {
+  padding-left: 120px !important;
+  padding-right: 120px !important; }
+
 .p-160 {
   padding: 160px !important; }
 
@@ -1367,6 +1390,29 @@ table {
   margin-left: 100px !important;
   margin-right: 100px !important; }
 
+.m-120 {
+  margin: 120px !important; }
+
+.m-t-120 {
+  margin-top: 120px !important; }
+
+.m-r-120 {
+  margin-right: 120px !important; }
+
+.m-b-120 {
+  margin-bottom: 120px !important; }
+
+.m-l-120 {
+  margin-left: 120px !important; }
+
+.m-y-120 {
+  margin-top: 120px !important;
+  margin-bottom: 120px !important; }
+
+.m-x-120 {
+  margin-left: 120px !important;
+  margin-right: 120px !important; }
+
 .m-160 {
   margin: 160px !important; }
 
@@ -1574,19 +1620,7 @@ h3 {
 h2 {
   font-size: 1rem !important;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  position: relative; }
-  h2:after {
-    content: '•••';
-    position: absolute;
-    left: 49%;
-    bottom: -7px;
-    height: 4px;
-    background-color: #fff;
-    width: 0;
-    -webkit-transition: width .25s;
-    -o-transition: width .25s;
-    transition: width .25s; }
+  letter-spacing: 5px; }
 
 h1 {
   font-size: 3.5rem !important;
@@ -1599,6 +1633,20 @@ h4,
 h5,
 h6 {
   margin-bottom: 40px; }
+
+.underline {
+  position: relative; }
+  .underline:after {
+    content: "•••";
+    position: absolute;
+    left: 49%;
+    bottom: -7px;
+    height: 4px;
+    background-color: #fff;
+    width: 0;
+    -webkit-transition: width 0.25s;
+    -o-transition: width 0.25s;
+    transition: width 0.25s; }
 
 .weight-200 {
   font-weight: 300 !important; }
@@ -1630,8 +1678,16 @@ strong {
   max-width: 1000px;
   margin: 0 auto; }
 
-nav ul li:first-child {
-  font-family: "Josefin Sans", sans-serif; }
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26); }
+
+nav ul li a:hover,
+nav ul li ul li a:hover {
+  font-weight: 400; }
 
 nav ul li {
   position: relative; }
