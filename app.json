@@ -20,7 +20,7 @@
   "pages": [
   {
     "path": "/",
-    "title": "Barburantho - Distillerie de Rhum",
+    "title": "Barburantho - Rhum d'excellence depuis 1639",
     "desc": "",
     "keywords": "",
     "file": "index"
@@ -55,7 +55,7 @@
   },
   {
     "path": "/distillerie",
-    "title": "Notre distillerie - Barburantho",
+    "title": "La Distillerie - Barburantho",
     "desc": "",
     "keywords": "",
     "file": "distillerie/index"
@@ -68,15 +68,8 @@
     "file": "distillerie/faq"
   },
   {
-    "path": "/distillerie/boutique",
-    "title": "Boutique - Barburantho",
-    "desc": "",
-    "keywords": "",
-    "file": "distillerie/boutique"
-  },
-  {
     "path": "/distillerie/histoire",
-    "title": "Notre histoire - Barburantho",
+    "title": "L'Histoire - Barburantho",
     "desc": "",
     "keywords": "",
     "file": "distillerie/histoire"
