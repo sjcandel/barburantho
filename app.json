@@ -22,20 +22,21 @@
     }
   ],
   "pages": [
-  {
-    "path": "/",
-    "title": "Barburantho - Rhum d'excellence depuis 1639",
-    "desc": "",
-    "keywords": "",
-    "file": "index"
-  },
-  {
-    "path": "/rhums",
-    "title": "Les Rhums",
-    "desc": "",
-    "keywords": "",
-    "file": "rhums/index"
-  },
+    {
+      "path": "/",
+      "title": "Barburantho - Rhum d'excellence depuis 1639",
+      "desc":
+        "Barburantho, célèbre distillerie de rhum martiniquais vous propose ses produits d'excellence",
+      "keywords": "",
+      "file": "index"
+    },
+    {
+      "path": "/rhums",
+      "title": "Les Rhums",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/index"
+    },
     {
       "path": "/rhums/ambres",
       "title": "Les Rhums ambrés",
@@ -43,27 +44,27 @@
       "keywords": "",
       "file": "rhums/ambres/index"
     },
-      {
-        "path": "/rhums/ambres/vasquez",
-        "title": "Vásquez",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/ambres/vasquez"
-      },
-      {
-        "path": "/rhums/ambres/da-cunha",
-        "title": "Da Cunha",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/ambres/da-cunha"
-      },
-      {
-        "path": "/rhums/ambres/nicolo-de-conti",
-        "title": "Nicolò de Conti",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/ambres/nicolo-de-conti"
-      },
+    {
+      "path": "/rhums/ambres/vasquez",
+      "title": "Vásquez",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/ambres/vasquez"
+    },
+    {
+      "path": "/rhums/ambres/da-cunha",
+      "title": "Da Cunha",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/ambres/da-cunha"
+    },
+    {
+      "path": "/rhums/ambres/nicolo-de-conti",
+      "title": "Nicolò de Conti",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/ambres/nicolo-de-conti"
+    },
     {
       "path": "/rhums/blancs",
       "title": "Les Rhums blancs",
@@ -71,27 +72,27 @@
       "keywords": "",
       "file": "rhums/blancs/index"
     },
-      {
-        "path": "/rhums/blancs/corte-real",
-        "title": "Corte Real",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/blancs/corte-real"
-      },
-      {
-        "path": "/rhums/blancs/diaz-del-castillo",
-        "title": "Dìaz Del Castillo",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/blancs/diaz-del-castillo"
-      },
-      {
-        "path": "/rhums/blancs/fernao-pinto",
-        "title": "Fernão Pinto",
-        "desc": "",
-        "keywords": "",
-        "file": "rhums/blancs/fernao-pinto"
-      },
+    {
+      "path": "/rhums/blancs/corte-real",
+      "title": "Corte Real",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/blancs/corte-real"
+    },
+    {
+      "path": "/rhums/blancs/diaz-del-castillo",
+      "title": "Dìaz Del Castillo",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/blancs/diaz-del-castillo"
+    },
+    {
+      "path": "/rhums/blancs/fernao-pinto",
+      "title": "Fernão Pinto",
+      "desc": "",
+      "keywords": "",
+      "file": "rhums/blancs/fernao-pinto"
+    },
     {
       "path": "/rhums/epices",
       "title": "Les Rhums épicés",
@@ -99,13 +100,13 @@
       "keywords": "",
       "file": "rhums/epices/index"
     },
-  {
-    "path": "/distillerie",
-    "title": "La Distillerie",
-    "desc": "",
-    "keywords": "",
-    "file": "distillerie/index"
-  },
+    {
+      "path": "/distillerie",
+      "title": "La Distillerie",
+      "desc": "",
+      "keywords": "",
+      "file": "distillerie/index"
+    },
     {
       "path": "/distillerie/faq",
       "title": "FAQ",
@@ -122,9 +123,17 @@
     },
     {
       "path": "/distillerie/savoir-faire",
-      "title": "Notre savoir-faire",
+      "title": "Le savoir-faire",
       "desc": "",
       "keywords": "",
       "file": "distillerie/savoir-faire"
+    },
+    {
+      "path": "/distillerie/boutique",
+      "title": "La boutique",
+      "desc": "",
+      "keywords": "",
+      "file": "distillerie/boutique"
     }
-  ]}
+  ]
+}

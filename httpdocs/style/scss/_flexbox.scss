@@ -10,9 +10,13 @@
   display: flex;
   /*@include prefix(align-items, center, webkit ms);*/
   @include prefix(flex-wrap, wrap !important, webkit ms);
-  @media screen and (max-width: $width-sm) {
+
+  @media screen and (max-width: $width-md) {
     flex-direction: column !important;
     align-items: center;
+    article {
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -44,6 +48,9 @@
 
 .is-horizontal-extremes {
   @include prefix(justify-content, space-between !important, webkit ms);
+  @media screen and (max-width: $width-lg) {
+    @include prefix(justify-content, center !important, webkit ms);
+  }
 }
 
 .is-horizontal-evenly {
