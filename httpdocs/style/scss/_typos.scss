@@ -89,6 +89,9 @@ h2 {
 h1 {
   font-size: $font-size-xxl !important;
   font-family: $font-family2;
+  @media screen and (max-width: $width-lg) {
+    font-size: $font-size-xl !important;
+  }
 }
 
 h1,
