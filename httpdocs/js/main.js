@@ -21,7 +21,7 @@ $(document).ready(function() {
 
   $(window).resize(function() {
     if ($(window).width() >= 600) {
-      $("#menu:hidden").show();
+      $("#menu:hidden").hide();
     }
   });
 });

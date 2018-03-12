@@ -49,6 +49,14 @@
   top: 10px;
   right: 10px;
   z-index: 12;
+}
+
+#menu-close {
+  color: white;
+}
+
+#menu-close {
+  position: fixed;
   color: $color-bth-brun3;
 }
 
@@ -189,4 +197,14 @@ header#home {
   // @media screen and (max-width: $width-md) {
   //   justify-content: space-between !important;
   // }
+}
+
+.article-rhum:nth-child(2) {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+
+  @media screen and (max-width: $width-md) {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
 }
